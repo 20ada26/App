@@ -1,0 +1,26 @@
+.insurance-list-container {
+    overflow: hidden;; /* Hide the scrollbar */
+    padding: 10px;
+    position: relative;
+  }
+  
+  .insurance-list {
+    display: flex;
+    position: relative;
+    left: 100px; /* Initialize the position */
+    transition: left 0.3s ease; /* Add smooth transition for scrolling */
+  }
+  
+  .insurance-item {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 200px;
+  }
+  
+  .insurance-item:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpaperaccess.com/full/7221449.jpg'); /* Path to the background image */
+    background-size: cover; /* Scale the image to cover the entire screen */
+    background-position: center; /* Center the image on the screen */
+    font-family: Arial, sans-serif;
+    
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+.logged-in-page {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 36px; /* Customize font size as needed */
+    font-weight: bold;
+    text-transform: uppercase; /* Convert the text to uppercase for a logo-like appearance */
+    letter-spacing: 4px; /* Increase letter spacing for a logo effect */
+    color: black; /* Text color */
+    background-color: #007bff; /* Logo background color */
+    padding: 10px 20px; /* Add padding to the logo */
+    border-radius: 50%; /* Create a circular shape for the logo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    position: absolute; /* Position the logo element */
+    top: 15px; /* Adjust vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }
+
+.settings-bar {
+    position: fixed;
+    top: 10px;
+    right: 80px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .settings-menu {
+    position: fixed;
+    padding-top: 55px;
+    top: 0;
+    right: 0;
+    width: 250px; /* Adjust the width as needed */
+    height: 100%;
+    border-left: 1px solid #ccc;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%); /* Initially slide the settings menu to the right */
+    transition: transform 0.3s ease;
+    z-index: 1;
+    background-color: white
+  }
+
+.settings-menu.active {
+    transform: translateX(0); /* Slide the settings menu back to the center */
+}
+
+.settings-menu button {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 80%;
+    height: 40px;
+    display: block;
+  }
+  
+  .settings-menu button:hover {
+    background-color: #ddd;
+  }
+  
+  
+  
+  .nav-container {
+    background-color: #007bff;
+    padding: 10px;
+    margin-top:100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the navigation items horizontally */
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .nav-item:hover {
+    background-color: #0056b3;
+    border-radius: 3px;
+  }
+  
+  /* Add any additional styling and animations you want */
+  

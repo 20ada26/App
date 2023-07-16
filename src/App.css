@@ -1,0 +1,121 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.home-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-signup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.login-signup button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.navigation-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.navigation-bar button:hover {
+  background-color: #0056b3;
+}
+
+.navigation-bar button:focus {
+  outline: none;
+}
+
+
+/* Login.css */
+
+/* Center the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login form container */
+.login-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Login form heading */
+.login-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Login form input fields */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Login form submit button */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Login form submit button on hover */
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message for invalid login */
+.login-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+

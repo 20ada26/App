@@ -1,0 +1,40 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .company-name {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-size: 36px; /* Customize font size as needed */
+  font-weight: bold;
+  text-transform: uppercase; /* Convert the text to uppercase for a logo-like appearance */
+  letter-spacing: 4px; /* Increase letter spacing for a logo effect */
+  color: #fff; /* Text color */
+  background-color: #3498db; /* Logo background color */
+  padding: 10px 20px; /* Add padding to the logo */
+  border-radius: 50%; /* Create a circular shape for the logo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  position: absolute; /* Position the logo element */
+  top: -15px; /* Adjust vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .login-button,
+  .signup-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Add any additional styling and animations you want */
+  
